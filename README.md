@@ -1,16 +1,11 @@
-# Welcome to Remix!
+# 💿 Welcome to Remix Starter Stack 💿
 
-- [Remix Docs](https://remix.run/docs)
+`npx create-remix@latest --template aAtila/remix-starter-stack --token [YOUR_GITHUB_TOKEN]`
 
-## Development
-
-From your terminal:
-
-```sh
-npm run dev
-```
-
-This starts your app in development mode, rebuilding assets on file changes.
+## What's in the stack
+* Eslint
+* Prettier
+* TailwindCSS (with the official plugins)
 
 ## Deployment
 
