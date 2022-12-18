@@ -7,3 +7,4 @@ node_modules
 
 /.idea
 /app/styles/main.css
+/app/styles/app.css
