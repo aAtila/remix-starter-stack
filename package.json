@@ -3,12 +3,11 @@
   "sideEffects": false,
   "scripts": {
     "build": "run-s \"build:*\"",
-    "build:css": "npm run generate:css -- --minify",
+    "build:css": "tailwindcss -m -i ./styles/app.css -o app/styles/app.css",
     "build:remix": "remix build",
     "dev": "run-p \"dev:*\"",
-    "dev:css": "npm run generate:css -- --watch",
+    "dev:css": "tailwindcss -w -i ./styles/app.css -o app/styles/app.css",
     "dev:remix": "remix dev",
-    "generate:css": "tailwindcss -w -i ./styles/main.css -o ./app/styles/main.css",
     "start": "remix-serve build"
   },
   "dependencies": {
