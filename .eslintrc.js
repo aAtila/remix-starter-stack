@@ -1,5 +1,8 @@
 /** @type {import('eslint').Linter.Config} */
 module.exports = {
+  parser: '@typescript-eslint/parser',
+  plugins: ['@typescript-eslint'],
+  root: true,
   extends: [
     "@remix-run/eslint-config",
     "@remix-run/eslint-config/node",
