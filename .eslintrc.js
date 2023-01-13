@@ -5,6 +5,7 @@ module.exports = {
     "@remix-run/eslint-config/node",
     "prettier",
     "plugin:tailwindcss/recommended",
+    "plugin:remix-react-routes/recommended",
   ],
   // uncomment in case we need to custom tweak the options
   // "rules": {
